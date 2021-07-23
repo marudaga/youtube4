@@ -1,3 +1,5 @@
+import express from "express";
+
 export const home = (req, res) => res.send("user home");
 
 export const nothing = (req, res) => res.send("nothing here");

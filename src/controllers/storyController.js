@@ -1,3 +1,5 @@
+import express from "express";
+
 export const trending = (req, res) => res.send("tranding");
 
 export const newer = (req, res) => res.send("new story");
